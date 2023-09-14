@@ -47,6 +47,7 @@ const plugins = [
     /** @type {import('@medusajs/admin').PluginOptions} */
     options: {
       autoRebuild: false,
+      path: "/admin",
       develop: {
         open: process.env.OPEN_BROWSER !== "false",
       },
